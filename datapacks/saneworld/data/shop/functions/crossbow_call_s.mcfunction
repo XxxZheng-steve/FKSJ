@@ -1,0 +1,7 @@
+#召唤弩
+execute as @a run execute if score @s crossbow_call matches 1.. run execute if score @s diamond matches 8.. run item replace entity @s enderchest.15 with minecraft:crossbow{display:{Name:"[\"§b§l魔法弩\"]",Lore:["[\"§f售价：8钻石\"]","[\"§6召唤强力卫兵\"]","[\"§6装填时间：1.25秒\"]","[\"§6耐久：5\"]"]},Tags:["crossbow_call"],HideFlags:63b} 1
+execute as @a run execute if score @s crossbow_call matches 1.. run execute if score @s diamond matches 8.. run execute at @s run playsound minecraft:block.dispenser.fail master @s
+execute as @a run execute if score @s crossbow_call matches 1.. run execute if score @s diamond matches 8.. run tellraw @s {"text":"§e§l成功购买魔法弩*1 花费8钻石"}
+execute as @a run execute if score @s crossbow_call matches 1.. run execute if score @s diamond matches 8.. run give @s minecraft:crossbow{Damage:463,display:{Name:"[{\"text\":\"§b§l魔法弩\"}]",Lore:["{\"text\":\"§b召唤 I\"}"]},HideFlags:7,Enchantments:[{id:"minecraft:piercing",lvl:108s}]} 1
+execute as @a run execute if score @s crossbow_call matches 1.. run execute if score @s diamond matches 8.. run clear @s crossbow{Tags:["crossbow_call"]}
+execute as @a run execute if score @s crossbow_call matches 1.. run execute if score @s diamond matches 8.. run clear @s diamond 8

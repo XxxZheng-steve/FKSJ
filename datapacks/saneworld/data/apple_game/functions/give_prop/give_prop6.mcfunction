@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick{CustomModelData:6,prop:6,display:{Name:"[\"§e附魔之瓶\"]"},HideFlags:63b} 1

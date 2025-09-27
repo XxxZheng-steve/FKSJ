@@ -1,0 +1,1 @@
+give @p minecraft:carrot_on_a_stick{CustomModelData:2,prop:2,display:{Name:"[\"§b§l瞬步\"]",Lore:["[\"§b向指定方向进行瞬移\"]","[\"§b瞬移距离15格\"]","[\"§b小心卡墙里或落入边界之外\"]","[\"§a§l右键使用\"]"]}} 1

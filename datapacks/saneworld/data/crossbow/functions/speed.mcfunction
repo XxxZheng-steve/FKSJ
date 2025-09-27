@@ -1,0 +1,1 @@
+execute as @e[type=#arrows,nbt={PierceLevel:101b}] run data merge entity @s {Tags:[speed],damage:1.5d,PierceLevel:0b,crit:true,life:1200}

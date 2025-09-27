@@ -1,0 +1,5 @@
+#购买失败：钻石套装
+execute as @a run execute if score @s diamond matches 1.. run execute if score @s money matches 0..99 run item replace entity @s enderchest.8 with minecraft:diamond_chestplate{display:{Name:"[\"§b§l钻石套装\"]",Lore:["[\"§f售价：100铁锭\"]","[\"§6弹射保护：IV\"]","[\"§6保护：III\"]","[\"§6无法破坏\"]"]},Tags:["diamond_chestplate"],HideFlags:63b} 1
+execute as @a run execute if score @s diamond matches 1.. run execute if score @s money matches 0..99 run tellraw @s [{"text":"§4§l【系统】没钱你买个der！！！"}]
+execute as @a run execute if score @s diamond matches 1.. run execute if score @s money matches 0..99 run execute at @s run playsound minecraft:block.note_block.didgeridoo master @s
+execute as @a run execute if score @s diamond matches 1.. run execute if score @s money matches 0..99 run clear @s diamond_chestplate{Tags:["diamond_chestplate"]}

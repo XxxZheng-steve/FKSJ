@@ -1,0 +1,6 @@
+#锁链套装:item
+execute as @a run execute if score @s chainmail matches 1.. run execute if score @s money matches 15.. run give @s minecraft:chainmail_chestplate{Unbreakable:1b,display:{Name:"[\"§b§l锁链胸甲\"]"},HideFlags:63b,Enchantments:[{id:"minecraft:projectile_protection",lvl:2s},{id:"minecraft:protection",lvl:2s}]} 1
+execute as @a run execute if score @s chainmail matches 1.. run execute if score @s money matches 15.. run give @s minecraft:chainmail_leggings{Unbreakable:1b,display:{Name:"[\"§b§l锁链护腿\"]"},HideFlags:63b,Enchantments:[{id:"minecraft:projectile_protection",lvl:2s},{id:"minecraft:protection",lvl:2s}]} 1
+execute as @a run execute if score @s chainmail matches 1.. run execute if score @s money matches 15.. run give @s minecraft:chainmail_boots{Unbreakable:1b,display:{Name:"[\"§b§l锁链靴子\"]"},HideFlags:63b,Enchantments:[{id:"minecraft:projectile_protection",lvl:2s},{id:"minecraft:protection",lvl:2s}]} 1
+execute as @a run execute if score @s chainmail matches 1.. run execute if score @s money matches 15.. run clear @s chainmail_chestplate{Tags:["chainmail_chestplate"]}
+execute as @a run execute if score @s chainmail matches 1.. run execute if score @s money matches 15.. run clear @s iron_ingot 15

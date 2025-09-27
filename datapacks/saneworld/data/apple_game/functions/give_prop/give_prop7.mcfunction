@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick{CustomModelData:7,prop:7,display:{Name:"[\"§b§l火球\"]",Lore:["[\"§b向指定方向\"]","[\"§b发射一个火球\"]","[\"§b起床战争？\"]","[\"§a§l右键使用\"]"]}} 1

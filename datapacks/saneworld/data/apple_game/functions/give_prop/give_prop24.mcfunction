@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick{CustomModelData:24,prop:24,display:{Name:"[\"§b§l幻魔者尖牙\"]",Lore:["[\"§b向指定方向召唤\"]","[\"§b幻魔者尖牙\"]","[\"§b距离15格\"]","[\"§a§l右键使用\"]"]}} 1

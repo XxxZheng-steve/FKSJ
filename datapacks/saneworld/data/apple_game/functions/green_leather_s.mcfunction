@@ -1,0 +1,7 @@
+#购买成功：皮革套装(绿队)
+execute as @a[team=luck_green] run execute if score @s luck_leather matches 1.. run execute if score @s luck_money matches 1.. run item replace entity @s enderchest.10 with minecraft:leather_chestplate{display:{Name:"[\"§b§l皮革套装\"]",Lore:["[\"§f售价：1苹果\"]","[\"§6弹射保护：I\"]","[\"§6保护：I\"]","[\"§6无法破坏\"]"]},Tags:["luck_leather_chestplate"],HideFlags:63b}
+execute as @a[team=luck_green] run execute if score @s luck_leather matches 1.. run execute if score @s luck_money matches 1.. run execute at @s run playsound minecraft:block.dispenser.fail master @s
+execute as @a[team=luck_green] run execute if score @s luck_leather matches 1.. run execute if score @s luck_money matches 1.. run title @s actionbar {"text":"§e§l成功购买皮革套装*1 花费1苹果"}
+execute as @a[team=luck_green] run execute if score @s luck_leather matches 1.. run execute if score @s luck_money matches 1.. run give @s carrot_on_a_stick{CustomModelData:97,prop:97,display:{Name:"[\"§b§l皮革套装\"]",Lore:["[\"§b弹射物保护 I\"]","[\"§b保护 I\"]","[\"§b不会替换原有装备\"]","[\"§a§l右键穿戴\"]"]}} 1
+execute as @a[team=luck_green] run execute if score @s luck_leather matches 1.. run execute if score @s luck_money matches 1.. run clear @s leather_chestplate{Tags:["luck_leather_chestplate"]}
+execute as @a[team=luck_green] run execute if score @s luck_leather matches 1.. run execute if score @s luck_money matches 1.. run clear @s apple 1

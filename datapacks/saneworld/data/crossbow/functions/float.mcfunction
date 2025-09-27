@@ -1,0 +1,1 @@
+execute as @e[type=#arrows,nbt={PierceLevel:104b}] run data merge entity @s {CustomPotionEffects:[{Amplifier:0,Id:25,Duration:300}],Tags:[float],PierceLevel:0b,crit:false,life:1200}

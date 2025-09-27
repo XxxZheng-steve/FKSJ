@@ -1,0 +1,6 @@
+#铁制套装
+execute as @a run execute if score @s iron matches 1.. run execute if score @s money matches 30.. run give @s minecraft:iron_chestplate{Unbreakable:1b,display:{Name:"[\"§b§l铁制胸甲\"]"},HideFlags:63b,Enchantments:[{id:"minecraft:projectile_protection",lvl:3s},{id:"minecraft:protection",lvl:3s}]} 1
+execute as @a run execute if score @s iron matches 1.. run execute if score @s money matches 30.. run give @s minecraft:iron_leggings{Unbreakable:1b,display:{Name:"[\"§b§l铁制护腿\"]"},HideFlags:63b,Enchantments:[{id:"minecraft:projectile_protection",lvl:3s},{id:"minecraft:protection",lvl:3s}]} 1
+execute as @a run execute if score @s iron matches 1.. run execute if score @s money matches 30.. run give @s minecraft:iron_boots{Unbreakable:1b,display:{Name:"[\"§b§l铁制靴子\"]"},HideFlags:63b,Enchantments:[{id:"minecraft:projectile_protection",lvl:3s},{id:"minecraft:protection",lvl:3s}]} 1
+execute as @a run execute if score @s iron matches 1.. run execute if score @s money matches 30.. run clear @s iron_chestplate{Tags:["iron_chestplate"]}
+execute as @a run execute if score @s iron matches 1.. run execute if score @s money matches 30.. run clear @s iron_ingot 30

@@ -1,0 +1,6 @@
+#钻石套装:
+execute as @a run execute if score @s diamond matches 1.. run execute if score @s money matches 100.. run give @s minecraft:diamond_chestplate{Unbreakable:1b,display:{Name:"[\"§b§l钻石胸甲\"]"},HideFlags:63b,Enchantments:[{id:"minecraft:projectile_protection",lvl:4s},{id:"minecraft:protection",lvl:3s}]} 1
+execute as @a run execute if score @s diamond matches 1.. run execute if score @s money matches 100.. run give @s minecraft:diamond_leggings{Unbreakable:1b,display:{Name:"[\"§b§l钻石护腿\"]"},HideFlags:63b,Enchantments:[{id:"minecraft:projectile_protection",lvl:4s},{id:"minecraft:protection",lvl:3s}]} 1
+execute as @a run execute if score @s diamond matches 1.. run execute if score @s money matches 100.. run give @s minecraft:diamond_boots{Unbreakable:1b,display:{Name:"[\"§b§l钻石靴子\"]"},HideFlags:63b,Enchantments:[{id:"minecraft:projectile_protection",lvl:4s},{id:"minecraft:protection",lvl:3s}]} 1
+execute as @a run execute if score @s diamond matches 1.. run execute if score @s money matches 100.. run clear @s diamond_chestplate{Tags:["diamond_chestplate"]}
+execute as @a run execute if score @s diamond matches 1.. run execute if score @s money matches 100.. run clear @s iron_ingot 100

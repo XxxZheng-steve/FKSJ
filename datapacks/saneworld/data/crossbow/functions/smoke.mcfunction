@@ -1,0 +1,2 @@
+execute as @e[type=#arrows,nbt={PierceLevel:107b}] run data merge entity @s {Tags:[smoke],damage:0d,PierceLevel:0b,pickup:0b,crit:true,life:800}
+execute as @e[type=arrow,tag=smoke,nbt={inGround:1b}] at @s run particle cloud ~ ~ ~ 1 1 1 0.1 1000

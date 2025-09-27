@@ -1,0 +1,5 @@
+#购买失败：皮革套装
+execute as @a run execute if score @s leather matches 1.. run execute if score @s money matches 0 run item replace entity @a enderchest.5 with minecraft:leather_chestplate{display:{Name:"[\"§b§l皮革套装\"]",Lore:["[\"§f售价：1铁锭\"]","[\"§6弹射保护：II\"]","[\"§6保护：I\"]","[\"§6无法破坏\"]"]},Tags:["leather_chestplate"],HideFlags:63b} 1
+execute as @a run execute if score @s leather matches 1.. run execute if score @s money matches 0 run tellraw @s [{"text":"§4§l【系统】没钱你买个der！！！"}]
+execute as @a run execute if score @s leather matches 1.. run execute if score @s money matches 0 run execute at @s run playsound minecraft:block.note_block.didgeridoo master @s
+execute as @a run execute if score @s leather matches 1.. run execute if score @s money matches 0 run clear @s leather_chestplate{Tags:["leather_chestplate"]}

@@ -1,0 +1,7 @@
+#购买成功：黑暗弩
+execute as @a run execute if score @s crossbow_bil matches 1.. run execute if score @s diamond matches 8.. run item replace entity @s enderchest.15 with minecraft:crossbow{display:{Name:"[\"§b§l黑暗弩\"]",Lore:["[\"§f售价：8钻石\"]","[\"§6失明：III\"]","[\"§6装填时间：1.25秒\"]","[\"§6耐久：3\"]"]},Tags:["crossbow_bil"],HideFlags:63b} 1
+execute as @a run execute if score @s crossbow_bil matches 1.. run execute if score @s diamond matches 8.. run execute at @s run playsound minecraft:block.dispenser.fail master @s
+execute as @a run execute if score @s crossbow_bil matches 1.. run execute if score @s diamond matches 8.. run tellraw @s {"text":"§e§l成功购买黑暗弩*1 花费8钻石"}
+execute as @a run execute if score @s crossbow_bil matches 1.. run execute if score @s diamond matches 8.. run give @s minecraft:crossbow{Damage:462,display:{Name:"[{\"text\":\"§8§l黑暗弩\"}]",Lore:["{\"text\":\"§8失明 III\"}"]},HideFlags:7,Enchantments:[{id:"minecraft:piercing",lvl:106s}]} 1
+execute as @a run execute if score @s crossbow_bil matches 1.. run execute if score @s diamond matches 8.. run clear @s crossbow{Tags:["crossbow_bil"]}
+execute as @a run execute if score @s crossbow_bil matches 1.. run execute if score @s diamond matches 8.. run clear @s diamond 8

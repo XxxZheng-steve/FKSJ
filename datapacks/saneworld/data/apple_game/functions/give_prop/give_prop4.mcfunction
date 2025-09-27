@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick{CustomModelData:4,prop:4,display:{Name:"[\"§b§l紧急救援\"]",Lore:["[\"§b传送至距离自己最远一名队友身边\"]","[\"§b并让附近所有队友获得小额护盾和抗性提升\"]","[\"§b持续时间5秒\"]","[\"§a§l右键使用\"]"]}} 1

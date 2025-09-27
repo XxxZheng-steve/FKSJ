@@ -1,0 +1,1 @@
+give @p minecraft:carrot_on_a_stick{CustomModelData:21,prop:21,display:{Name:"[\"§e附魔书\"]",Lore:["[\"§7摔落保护 §7§lII\"]"]},HideFlags:63b,Enchantments:[{id:"minecraft:infinity",lvl:1s}]} 1

@@ -1,0 +1,7 @@
+#购买成功：烟花火箭(绿队)
+execute as @a[team=luck_green] run execute if score @s luck_rocket matches 1.. run execute if score @s luck_money matches 5.. run item replace entity @s enderchest.26 with firework_rocket{display:{Name:'{"text": "§b§l烟花火箭"}',Lore:['{"text":"§f售价：5苹果"}','{"text":""}','{"text":"§6爆炸即使艺术~"}']},Tags:["luck_rocket"]} 1
+execute as @a[team=luck_green] run execute if score @s luck_rocket matches 1.. run execute if score @s luck_money matches 5.. run execute at @s run playsound minecraft:block.dispenser.fail master @s
+execute as @a[team=luck_green] run execute if score @s luck_rocket matches 1.. run execute if score @s luck_money matches 5.. run title @s actionbar {"text":"§e§l成功购买烟花火箭*1 花费5苹果"}
+execute as @a[team=luck_green] run execute if score @s luck_rocket matches 1.. run execute if score @s luck_money matches 5.. run give @s firework_rocket{HideFlags:32,Fireworks:{Flight:1,Explosions:[{Trail:1b,Flicker:1b,Type:0,Colors:[I;64778],FadeColors:[I;16711680]},{Trail:1b,Flicker:1b,Type:0,Colors:[I;851712],FadeColors:[I;16711680]},{Trail:1b,Flicker:1b,Type:0,Colors:[I;3800832],FadeColors:[I;16711680]},{Trail:1b,Flicker:1b,Type:0,Colors:[I;3800832],FadeColors:[I;16711680]}]}} 1
+execute as @a[team=luck_green] run execute if score @s luck_rocket matches 1.. run execute if score @s luck_money matches 5.. run clear @s firework_rocket{Tags:["luck_rocket"]}
+execute as @a[team=luck_green] run execute if score @s luck_rocket matches 1.. run execute if score @s luck_money matches 5.. run clear @s apple 5

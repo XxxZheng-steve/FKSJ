@@ -1,0 +1,1 @@
+give @s minecraft:crossbow{display:{Name:"[{\"text\":\"§b§l火焰弩\"}]",Lore:["{\"text\":\"§b火失 I\"}"]},HideFlags:7,Enchantments:[{id:"minecraft:piercing",lvl:100s}]} 1

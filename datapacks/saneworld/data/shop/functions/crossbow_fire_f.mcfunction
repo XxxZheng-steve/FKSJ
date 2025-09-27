@@ -1,0 +1,5 @@
+#购买失败：火焰弩
+execute as @a run execute if score @s crossbow_fire matches 1.. run execute if score @s diamond matches 0..1 run item replace entity @s enderchest.10 with minecraft:crossbow{display:{Name:"[\"§b§l火焰弩\"]",Lore:["[\"§f售价：2钻石\"]","[\"§6火矢：I\"]","[\"§6装填时间：1.25秒\"]","[\"§6耐久：465\"]"]},Tags:["crossbow_fire"],HideFlags:63b} 1
+execute as @a run execute if score @s crossbow_fire matches 1.. run execute if score @s diamond matches 0..1 run tellraw @s [{"text":"§4§l【系统】没钱你买个der！！！"}]
+execute as @a run execute if score @s crossbow_fire matches 1.. run execute if score @s diamond matches 0..1 run execute at @s run playsound minecraft:block.note_block.didgeridoo master @s
+execute as @a run execute if score @s crossbow_fire matches 1.. run execute if score @s diamond matches 0..1 run clear @s crossbow{Tags:["crossbow_fire"]}

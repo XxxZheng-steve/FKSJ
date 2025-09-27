@@ -1,0 +1,5 @@
+#购买失败：资源升级
+execute as @a run execute if score @s mine_apple matches 1.. run execute if score @s luck_money matches 0..99 run item replace entity @s enderchest.20 with apple{display:{Name:'{"text": "§b§l资源升级"}',Lore:['{"text":"§f售价：100苹果"}','{"text":"§6每隔10秒使全队玩家获得1颗苹果"}','{"text":"§6生生不息,源源不绝~"}']},Tags:["mine_apple"]} 1
+execute as @a run execute if score @s mine_apple matches 1.. run execute if score @s luck_money matches 0..99 run title @s actionbar [{"text":"§4§l【阿正】没钱你买个der！！！"}]
+execute as @a run execute if score @s mine_apple matches 1.. run execute if score @s luck_money matches 0..99 run execute at @s run playsound minecraft:block.note_block.didgeridoo master @s
+execute as @a run execute if score @s mine_apple matches 1.. run execute if score @s luck_money matches 0..99 run clear @s apple{Tags:["mine_apple"]}

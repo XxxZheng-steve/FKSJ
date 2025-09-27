@@ -1,0 +1,6 @@
+#购买成功：魔法弩
+execute as @a run execute if score @s crossbow_fly matches 1.. run execute if score @s diamond matches 8.. run item replace entity @s enderchest.15 with crossbow{display:{Name:'{"text": "§b§l魔法弩"}',Lore:['{"text":"§6售价：8钻石"}','{"text":""}','{"text":"§6骑乘箭矢,即刻起飞！"}']},Tags:["crossbow_fly"]}
+execute as @a run execute if score @s crossbow_fly matches 1.. run execute if score @s diamond matches 8.. run execute at @s run playsound minecraft:block.dispenser.fail master @s
+execute as @a run execute if score @s crossbow_fly matches 1.. run execute if score @s diamond matches 8.. run give @s minecraft:crossbow{Damage:464,display:{Name:"[{\"text\":\"§2§l魔法弩\"}]",Lore:["{\"text\":\"§2飞行 I\"}"]},HideFlags:7,Enchantments:[{id:"minecraft:piercing",lvl:106s}]} 1
+execute as @a run execute if score @s crossbow_fly matches 1.. run execute if score @s diamond matches 8.. run clear @s crossbow{Tags:["crossbow_fly"]}
+execute as @a run execute if score @s crossbow_fly matches 1.. run execute if score @s diamond matches 8.. run clear @s diamond 8

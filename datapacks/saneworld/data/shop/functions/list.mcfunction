@@ -1,0 +1,34 @@
+item replace entity @a enderchest.0 with bread{display:{Name:'{"text": "§b§l面包"}',Lore:['{"text":"§6售价：1铁锭"}','{"text":""}','{"text":"§6你确定这不是武器？？？"}']},Tags:["bread"],HideFlags:63b} 2
+item replace entity @a enderchest.1 with cooked_beef{display:{Name:'{"text": "§b§l牛排"}',Lore:['{"text":"§6售价：1铁锭"}','{"text":""}','{"text":"§6滋滋滋~香喷喷~"}']},Tags:["beef"],HideFlags:63b} 1
+item replace entity @a enderchest.2 with apple{display:{Name:'{"text": "§b§l幸运苹果"}',Lore:['{"text":"§6售价：2铁锭"}','{"text":""}','{"text":"§6吃了它有神奇的力量！"}']},Tags:["apple"],HideFlags:63b} 1
+item replace entity @a enderchest.3 with golden_apple{display:{Name:'{"text": "§b§l金苹果"}',Lore:['{"text":"§6售价：5铁锭"}','{"text":""}','{"text":"§6哇~金色传说"}']},Tags:["golden_apple"],HideFlags:63b} 1
+item replace entity @a enderchest.4 with rotten_flesh{display:{Name:'{"text": "§b§l腐肉"}',Lore:['{"text":"§6售价：1铁锭"}','{"text":""}','{"text":"§6这是什么鬼东西？腐烂的牛排？？"}']},Tags:["rotten_flesh"],HideFlags:63b} 5
+item replace entity @a enderchest.5 with leather_chestplate{display:{Name:"[\"§b§l皮革套装\"]",Lore:["[\"§f售价：1铁锭\"]","[\"§6弹射保护：II\"]","[\"§6保护：I\"]","[\"§6无法破坏\"]"]},Tags:["leather_chestplate"],HideFlags:63b} 1
+item replace entity @a enderchest.6 with chainmail_chestplate{display:{Name:"[\"§b§l锁链套装\"]",Lore:["[\"§f售价：15铁锭\"]","[\"§6弹射保护：II\"]","[\"§6保护：II\"]","[\"§6无法破坏\"]"]},Tags:["chainmail_chestplate"],HideFlags:63b} 1
+item replace entity @a enderchest.7 with iron_chestplate{display:{Name:"[\"§b§l铁制套装\"]",Lore:["[\"§f售价：30铁锭\"]","[\"§6弹射保护：III\"]","[\"§6保护：III\"]","[\"§6无法破坏\"]"]},Tags:["iron_chestplate"],HideFlags:63b} 1
+item replace entity @a enderchest.8 with diamond_chestplate{display:{Name:"[\"§b§l钻石套装\"]",Lore:["[\"§f售价：100铁锭\"]","[\"§6弹射保护：IV\"]","[\"§6保护：III\"]","[\"§6无法破坏\"]"]},Tags:["diamond_chestplate"],HideFlags:63b} 1
+item replace entity @a enderchest.24 with shield{display:{Name:"[\"§b§l盾牌\"]",Lore:["[\"§f售价：20铁锭\"]","[\"§6无特殊效果\"]","[\"§6耐久：20\"]"]},Tags:["shield"],HideFlags:63b} 1
+item replace entity @a enderchest.26 with arrow{display:{Name:'{"text": "§b§l箭矢"}',Lore:['{"text":"§6售价：1铁锭"}','{"text":""}','{"text":"§6号外！号外！箭矢贱卖！买不了吃亏买不了上当！"}']},Tags:["arrow"],HideFlags:63b} 16
+item replace entity @a[team=green] enderchest.23 with air
+item replace entity @a enderchest.5 with minecraft:leather_chestplate{display:{Name:"[\"§b§l皮革套装\"]",Lore:["[\"§f售价：1铁锭\"]","[\"§6弹射保护：II\"]","[\"§6保护：I\"]","[\"§6无法破坏\"]"]},Tags:["leather_chestplate"],HideFlags:63b} 1
+item replace entity @a enderchest.6 with minecraft:chainmail_chestplate{display:{Name:"[\"§b§l锁链套装\"]",Lore:["[\"§f售价：15铁锭\"]","[\"§6弹射保护：II\"]","[\"§6保护：II\"]","[\"§6无法破坏\"]"]},Tags:["chainmail_chestplate"],HideFlags:63b} 1
+item replace entity @a enderchest.7 with minecraft:iron_chestplate{display:{Name:"[\"§b§l铁制套装\"]",Lore:["[\"§f售价：30铁锭\"]","[\"§6弹射保护：III\"]","[\"§6保护：III\"]","[\"§6无法破坏\"]"]},Tags:["iron_chestplate"],HideFlags:63b} 1
+item replace entity @a enderchest.8 with minecraft:diamond_chestplate{display:{Name:"[\"§b§l钻石套装\"]",Lore:["[\"§f售价：100铁锭\"]","[\"§6弹射保护：IV\"]","[\"§6保护：III\"]","[\"§6无法破坏\"]"]},Tags:["diamond_chestplate"],HideFlags:63b} 1
+item replace entity @a enderchest.9 with minecraft:crossbow{display:{Name:"[\"§b§l普通弩\"]",Lore:["[\"§f售价：1铁锭\"]","[\"§6无特殊效果\"]","[\"§6装填时间：1.25秒\"]","[\"§6耐久：465\"]"]},Tags:["crossbow"],HideFlags:63b} 1
+item replace entity @a enderchest.10 with minecraft:crossbow{display:{Name:"[\"§b§l火焰弩\"]",Lore:["[\"§f售价：2钻石\"]","[\"§6火矢：I\"]","[\"§6装填时间：1.25秒\"]","[\"§6耐久：465\"]"]},Tags:["crossbow_fire"],HideFlags:63b} 1
+item replace entity @a enderchest.11 with minecraft:crossbow{display:{Name:"[\"§b§l速攻弩\"]",Lore:["[\"§f售价：2钻石\"]","[\"§6快速装填：Max\"]","[\"§6装填时间：0秒\"]","[\"§6耐久：30\"]"]},Tags:["crossbow_speed"],HideFlags:63b} 1
+item replace entity @a enderchest.12 with minecraft:crossbow{display:{Name:"[\"§b§l破甲弩\"]",Lore:["[\"§f售价：5钻石\"]","[\"§6破甲：V\"]","[\"§6装填时间：1.25秒\"]","[\"§6耐久：15\"]"]},Tags:["crossbow_sunder"],HideFlags:63b} 1
+item replace entity @a enderchest.13 with minecraft:crossbow{display:{Name:"[\"§b§l剧毒弩\"]",Lore:["[\"§f售价：5钻石\"]","[\"§6中毒：II\"]","[\"§6装填时间：1.25秒\"]","[\"§6耐久：15\"]"]},Tags:["crossbow_poison"],HideFlags:63b} 1
+item replace entity @a enderchest.14 with minecraft:crossbow{display:{Name:"[\"§b§l烟幕弩\"]",Lore:["[\"§f售价：5钻石\"]","[\"§6烟幕：Max\"]","[\"§6装填时间：1.25秒\"]","[\"§6耐久：1\"]"]},Tags:["crossbow_smoke"],HideFlags:63b} 1
+item replace entity @a[team=red] enderchest.15 with minecraft:crossbow{display:{Name:"[\"§b§l黑暗弩\"]",Lore:["[\"§f售价：8钻石\"]","[\"§6失明：III\"]","[\"§6装填时间：1.25秒\"]","[\"§6耐久：3\"]"]},Tags:["crossbow_bil"],HideFlags:63b} 1
+item replace entity @a[team=green] enderchest.15 with minecraft:crossbow{display:{Name:"[\"§b§l魔法弩\"]",Lore:["[\"§f售价：8钻石\"]","[\"§6召唤强力卫兵\"]","[\"§6装填时间：1.25秒\"]","[\"§6耐久：2\"]"]},Tags:["crossbow_call"],HideFlags:63b} 1
+item replace entity @a enderchest.18 with minecraft:crossbow{display:{Name:"[\"§b§l反重弩\"]",Lore:["[\"§f售价：5钻石\"]","[\"§6漂浮：III\"]","[\"§6装填时间：1.25秒\"]","[\"§6耐久：5\"]"]},Tags:["crossbow_float"],HideFlags:63b} 1
+item replace entity @a enderchest.19 with minecraft:wooden_sword{display:{Name:"[\"§b§l木剑\"]",Lore:["[\"§f售价：1铁锭\"]","[\"§6锋利：V\"]","[\"§6无法破坏\"]"]},Tags:["wooden_sword"],HideFlags:63b} 1
+item replace entity @a enderchest.20 with minecraft:iron_sword{display:{Name:"[\"§b§l铁剑\"]",Lore:["[\"§f售价：10铁锭\"]","[\"§6锋利：V\"]","[\"§6无法破坏\"]"]},Tags:["iron_sword"],HideFlags:63b} 1
+item replace entity @a enderchest.21 with minecraft:iron_axe{display:{Name:"[\"§b§l铁斧\"]",Lore:["[\"§f售价：20铁锭\"]","[\"§6锋利：III\"]","[\"§6耐久：2\"]"]},Tags:["iron_axe"],HideFlags:63b} 1
+item replace entity @a enderchest.22 with minecraft:wooden_shovel{display:{Name:"[\"§b§l木铲\"]",Lore:["[\"§f售价：10铁锭\"]","[\"§6可破坏：梯子\"]","[\"§6耐久：5\"]"]},Tags:["wooden_shovel"],HideFlags:63b} 1
+item replace entity @a[team=red] enderchest.23 with minecraft:sea_pickle{display:{Name:"[\"§b§l核心拆除器\"]",Lore:["[\"§f售价：1钻石\"]","[\"§6可破坏：核心\"]","[\"§6无法破坏\"]"]},Tags:["sea_pickle"],HideFlags:63b} 1
+item replace entity @a[team=green] enderchest.23 with minecraft:heavy_weighted_pressure_plate{display:{Name:"[\"§b§l陷阱\"]",Lore:["[\"§f售价：2钻石\"]","[\"§6可以放在\"]","[\"§6石砖/橡木原木/木板上\"]"]},Tags:["heavy"],HideFlags:63b} 1
+item replace entity @a enderchest.24 with minecraft:shield{display:{Name:"[\"§b§l盾牌\"]",Lore:["[\"§f售价：20铁锭\"]","[\"§6无特殊效果\"]","[\"§6耐久：20\"]"]},Tags:["shield"],HideFlags:63b} 1
+item replace entity @a enderchest.25 with minecraft:ladder{display:{Name:"[\"§b§l梯子\"]",Lore:["[\"§f售价：15铁锭\"]","[\"§6可以放在\"]","[\"§6橡木原木上\"]"]},Tags:["ladder"],HideFlags:63b} 2
+item replace entity @a enderchest.26 with arrow{display:{Name:'{"text": "§b§l箭矢"}',Lore:['{"text":"§6售价：1铁锭"}','{"text":""}','{"text":"§6号外！号外！箭矢贱卖！买不了吃亏买不了上当！"}']},Tags:["arrow"]} 16

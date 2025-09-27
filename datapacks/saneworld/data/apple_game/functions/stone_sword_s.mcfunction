@@ -1,0 +1,7 @@
+#购买成功：石剑
+execute as @a run execute if score @s luck_stone_sword matches 1.. run execute if score @s luck_money matches 1.. run item replace entity @s enderchest.9 with minecraft:stone_sword{display:{Name:"[\"§b§l石剑\"]",Lore:["[\"§f售价：1苹果\"]","[\"§6锋利：II\"]","[\"§6无法破坏\"]"]},Tags:["luck_stone_sword"],HideFlags:63b} 1
+execute as @a run execute if score @s luck_stone_sword matches 1.. run execute if score @s luck_money matches 1.. run execute at @s run playsound minecraft:block.dispenser.fail master @s
+execute as @a run execute if score @s luck_stone_sword matches 1.. run execute if score @s luck_money matches 1.. run title @s actionbar {"text":"§e§l成功购买石剑*1 花费1苹果"}
+execute as @a run execute if score @s luck_stone_sword matches 1.. run execute if score @s luck_money matches 1.. run give @s minecraft:stone_sword{Unbreakable:1b,display:{Name:"[\"§3§l石剑\"]",Lore:["[\"§f锋利 II\"]"]},HideFlags:63b,Enchantments:[{id:"minecraft:sharpness",lvl:2s}]} 1
+execute as @a run execute if score @s luck_stone_sword matches 1.. run execute if score @s luck_money matches 1.. run clear @s stone_sword{Tags:["luck_stone_sword"]}
+execute as @a run execute if score @s luck_stone_sword matches 1.. run execute if score @s luck_money matches 1.. run clear @s apple 1

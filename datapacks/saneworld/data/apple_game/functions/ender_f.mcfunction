@@ -1,0 +1,5 @@
+#购买失败：末影珍珠
+execute as @a run execute if score @s luck_ender matches 1.. run execute if score @s luck_money matches 0..31 run item replace entity @s enderchest.16 with ender_pearl{display:{Name:'{"text": "§b§l末影珍珠"}',Lore:['{"text":"§f售价：32苹果"}','{"text":""}','{"text":"§6发起进攻又或者狼狈逃跑"}']},Tags:["luck_ender"]} 1
+execute as @a run execute if score @s luck_ender matches 1.. run execute if score @s luck_money matches 0..31 run title @s actionbar [{"text":"§4§l【阿正】没钱你买个der！！！"}]
+execute as @a run execute if score @s luck_ender matches 1.. run execute if score @s luck_money matches 0..31 run execute at @s run playsound minecraft:block.note_block.didgeridoo master @s
+execute as @a run execute if score @s luck_ender matches 1.. run execute if score @s luck_money matches 0..31 run clear @s ender_pearl{Tags:["luck_ender"]}

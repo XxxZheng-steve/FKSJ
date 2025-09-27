@@ -1,0 +1,5 @@
+#购买失败：绿色羊毛
+execute as @a[team=luck_green] run execute if score @s luck_wool matches 4.. run execute if score @s luck_money matches 0..1 run item replace entity @s enderchest.12 with lime_wool{display:{Name:'{"text": "§b§l绿色羊毛"}',Lore:['{"text":"§f售价：2苹果"}','{"text":""}','{"text":"§6向敌方发起进攻吧！"}']},Tags:["luck_lime_wool"]} 8
+execute as @a[team=luck_green] run execute if score @s luck_wool matches 4.. run execute if score @s luck_money matches 0..1 run title @s actionbar [{"text":"§4§l【阿正】没钱你买个der！！！"}]
+execute as @a[team=luck_green] run execute if score @s luck_wool matches 4.. run execute if score @s luck_money matches 0..1 run execute at @s run playsound minecraft:block.note_block.didgeridoo master @s
+execute as @a[team=luck_green] run execute if score @s luck_wool matches 4.. run execute if score @s luck_money matches 0..1 run clear @s lime_wool{Tags:["luck_lime_wool"]}

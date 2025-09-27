@@ -1,0 +1,7 @@
+#购买成功火焰弩
+execute as @a run execute if score @s crossbow_fire matches 1.. run execute if score @s luck_money matches 20.. run item replace entity @s enderchest.14 with minecraft:crossbow{display:{Name:"[\"§b§l火焰弩\"]",Lore:["[\"§f售价：20苹果\"]","[\"§6火矢：I\"]","[\"§6装填时间：1.25秒\"]","[\"§6耐久：465\"]"]},Tags:["luck_crossbow_fire"],HideFlags:63b} 1
+execute as @a run execute if score @s crossbow_fire matches 1.. run execute if score @s luck_money matches 20.. run execute at @s run playsound minecraft:block.dispenser.fail master @s
+execute as @a run execute if score @s crossbow_fire matches 1.. run execute if score @s luck_money matches 20.. run title @s actionbar {"text":"§e§l成功购买火焰弩*1 花费20苹果"}
+execute as @a run execute if score @s crossbow_fire matches 1.. run execute if score @s luck_money matches 20.. run give @s minecraft:crossbow{display:{Name:"[{\"text\":\"§e§l火焰弩\"}]",Lore:["{\"text\":\"§e火失 I\"}"]},HideFlags:7,Enchantments:[{id:"minecraft:piercing",lvl:100s}]} 1
+execute as @a run execute if score @s crossbow_fire matches 1.. run execute if score @s luck_money matches 20.. run clear @s crossbow{Tags:["luck_crossbow_fire"]}
+execute as @a run execute if score @s crossbow_fire matches 1.. run execute if score @s luck_money matches 20.. run clear @s apple 20

@@ -1,0 +1,1 @@
+give @s minecraft:crossbow{Damage:460,display:{Name:"[{\"text\":\"§b§l反重弩\"}]",Lore:["{\"text\":\"§b漂浮 III\"}"]},HideFlags:7,Enchantments:[{id:"minecraft:piercing",lvl:104s}]} 1

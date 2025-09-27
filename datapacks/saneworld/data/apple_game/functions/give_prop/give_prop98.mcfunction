@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick{CustomModelData:98,prop:98,display:{Name:"[\"§b§l无赖战士套装\"]",Lore:["[\"§b穿戴超强装备\"]","[\"§b降低视野与攻击范围获得超强加成\"]","[\"§b会直接替换身上装备\"]","[\"§a§l右键使用\"]"]}} 1

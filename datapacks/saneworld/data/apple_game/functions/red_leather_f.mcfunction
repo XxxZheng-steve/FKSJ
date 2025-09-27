@@ -1,0 +1,5 @@
+#购买失败：皮革套装(红队)
+execute as @a[team=luck_red] run execute if score @s luck_leather matches 1.. run execute if score @s luck_money matches 0 run item replace entity @s enderchest.10 with minecraft:leather_chestplate{display:{Name:"[\"§b§l皮革套装\"]",Lore:["[\"§f售价：1苹果\"]","[\"§6弹射保护：I\"]","[\"§6保护：I\"]","[\"§6无法破坏\"]"]},Tags:["luck_leather_chestplate"],HideFlags:63b} 1
+execute as @a[team=luck_red] run execute if score @s luck_leather matches 1.. run execute if score @s luck_money matches 0 run title @s actionbar [{"text":"§4§l【阿正】没钱你买个der！！！"}]
+execute as @a[team=luck_red] run execute if score @s luck_leather matches 1.. run execute if score @s luck_money matches 0 run execute at @s run playsound minecraft:block.note_block.didgeridoo master @s
+execute as @a[team=luck_red] run execute if score @s luck_leather matches 1.. run execute if score @s luck_money matches 0 run clear @s leather_chestplate{Tags:["luck_leather_chestplate"]}

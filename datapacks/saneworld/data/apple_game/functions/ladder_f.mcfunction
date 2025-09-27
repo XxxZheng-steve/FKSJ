@@ -1,0 +1,5 @@
+#购买失败：梯..1子
+execute as @a run execute if score @s luck_ladder matches 3.. run execute if score @s luck_money matches 0..1 run item replace entity @s enderchest.8 with ladder{display:{Name:'{"text": "§b§l梯子"}',Lore:['{"text":"§f售价：2苹果"}','{"text":""}','{"text":"§6贴图居然可以攀爬？！"}']},Tags:["luck_ladder"]} 3
+execute as @a run execute if score @s luck_ladder matches 3.. run execute if score @s luck_money matches 0..1 run title @s actionbar [{"text":"§4§l【阿正】没钱你买个der！！！"}]
+execute as @a run execute if score @s luck_ladder matches 3.. run execute if score @s luck_money matches 0..1 run execute at @s run playsound minecraft:block.note_block.didgeridoo master @s
+execute as @a run execute if score @s luck_ladder matches 3.. run execute if score @s luck_money matches 0..1 run clear @s ladder{Tags:["luck_ladder"]}

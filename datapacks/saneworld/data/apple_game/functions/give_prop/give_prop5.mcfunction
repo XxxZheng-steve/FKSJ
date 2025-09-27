@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick{CustomModelData:5,prop:5,display:{Name:"[\"§b§l桃园结义\"]",Lore:["[\"§b使全场玩家获得\"]","[\"§b生命恢复II,饱和II效果\"]","[\"§b持续时间5秒\"]","[\"§a§l右键使用\"]"]}} 1

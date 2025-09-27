@@ -1,0 +1,7 @@
+#购买成功火焰弓
+execute as @a run execute if score @s luck_bow_fire matches 1.. run execute if score @s luck_money matches 30.. run item replace entity @s enderchest.22 with bow{display:{Name:"[\"§b§l火焰弓\"]",Lore:["[\"§f售价：30苹果\"]","[\"§6火矢：I\"]","[\"§6拉弓时间：0.1-1秒\"]","[\"§6耐久：384\"]"]},Tags:["luck_bow_fire"],HideFlags:63b} 1
+execute as @a run execute if score @s luck_bow_fire matches 1.. run execute if score @s luck_money matches 30.. run execute at @s run playsound minecraft:block.dispenser.fail master @s
+execute as @a run execute if score @s luck_bow_fire matches 1.. run execute if score @s luck_money matches 30.. run title @s actionbar {"text":"§e§l成功购买火焰弓*1 花费30苹果"}
+execute as @a run execute if score @s luck_bow_fire matches 1.. run execute if score @s luck_money matches 30.. run give @s bow{display:{Name:"[\"§e§l火焰弓\"]",Lore:["[\"§e火失 §e§lI\"]"]},HideFlags:63b,Enchantments:[{id:"minecraft:flame",lvl:1s}]} 1
+execute as @a run execute if score @s luck_bow_fire matches 1.. run execute if score @s luck_money matches 30.. run clear @s bow{Tags:["luck_bow_fire"]}
+execute as @a run execute if score @s luck_bow_fire matches 1.. run execute if score @s luck_money matches 30.. run clear @s apple 30

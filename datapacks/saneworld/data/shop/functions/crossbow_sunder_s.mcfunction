@@ -1,0 +1,7 @@
+#购买成功：破甲弩
+execute as @a run execute if score @s crossbow_sunder matches 1.. run execute if score @s diamond matches 5.. run item replace entity @s enderchest.12 with minecraft:crossbow{display:{Name:"[\"§b§l破甲弩\"]",Lore:["[\"§f售价：5钻石\"]","[\"§6破甲：V\"]","[\"§6装填时间：1.25秒\"]","[\"§6耐久：15\"]"]},Tags:["crossbow_sunder"],HideFlags:63b} 1
+execute as @a run execute if score @s crossbow_sunder matches 1.. run execute if score @s diamond matches 5.. run execute at @s run playsound minecraft:block.dispenser.fail master @s
+execute as @a run execute if score @s crossbow_sunder matches 1.. run execute if score @s diamond matches 5.. run tellraw @s {"text":"§e§l成功购买破甲弩*1 花费5钻石"}
+execute as @a run execute if score @s crossbow_sunder matches 1.. run execute if score @s diamond matches 5.. run give @s minecraft:crossbow{Damage:450,display:{Name:"[{\"text\":\"§4§l破甲弩\"}]",Lore:["{\"text\":\"§4破甲 V\"}"]},HideFlags:7,Enchantments:[{id:"minecraft:piercing",lvl:102s}]} 1
+execute as @a run execute if score @s crossbow_sunder matches 1.. run execute if score @s diamond matches 5.. run clear @s crossbow{Tags:["crossbow_sunder"]}
+execute as @a run execute if score @s crossbow_sunder matches 1.. run execute if score @s diamond matches 5.. run clear @s diamond 5

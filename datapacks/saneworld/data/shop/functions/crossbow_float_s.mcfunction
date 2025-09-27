@@ -1,0 +1,7 @@
+#购买成功：反重弩
+execute as @a run execute if score @s crossbow_float matches 1.. run execute if score @s diamond matches 5.. run item replace entity @s enderchest.18 with minecraft:crossbow{display:{Name:"[\"§b§l反重弩\"]",Lore:["[\"§f售价：5钻石\"]","[\"§6漂浮：III\"]","[\"§6装填时间：1.25秒\"]","[\"§6耐久：5\"]"]},Tags:["crossbow_float"],HideFlags:63b} 1
+execute as @a run execute if score @s crossbow_float matches 1.. run execute if score @s diamond matches 5.. run execute at @s run playsound minecraft:block.dispenser.fail master @s
+execute as @a run execute if score @s crossbow_float matches 1.. run execute if score @s diamond matches 5.. run tellraw @s {"text":"§e§l成功购买反重弩*1 花费5钻石"}
+execute as @a run execute if score @s crossbow_float matches 1.. run execute if score @s diamond matches 5.. run give @s minecraft:crossbow{Damage:460,display:{Name:"[{\"text\":\"§b§l反重弩\"}]",Lore:["{\"text\":\"§b漂浮 III\"}"]},HideFlags:7,Enchantments:[{id:"minecraft:piercing",lvl:104s}]} 1
+execute as @a run execute if score @s crossbow_float matches 1.. run execute if score @s diamond matches 5.. run clear @s crossbow{Tags:["crossbow_float"]}
+execute as @a run execute if score @s crossbow_float matches 1.. run execute if score @s diamond matches 5.. run clear @s diamond 5

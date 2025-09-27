@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick{CustomModelData:96,prop:96,display:{Name:"[\"§b§l皮革套装\"]",Lore:["[\"§b弹射物保护 I\"]","[\"§b保护 I\"]","[\"§b不会替换原有装备\"]","[\"§a§l右键穿戴\"]"]}} 1

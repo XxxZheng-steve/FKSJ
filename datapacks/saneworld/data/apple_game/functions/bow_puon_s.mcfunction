@@ -1,0 +1,7 @@
+#购买成功力量
+execute as @a run execute if score @s luck_bow_puon matches 1.. run execute if score @s luck_money matches 20.. run item replace entity @s enderchest.4 with bow{display:{Name:"[\"§b§l力量弓\"]",Lore:["[\"§f售价：20苹果\"]","[\"§6力量：I\"]","[\"§6拉弓时间：0.1-1秒\"]","[\"§6耐久：384\"]"]},Tags:["luck_bow_puon"],HideFlags:63b} 1
+execute as @a run execute if score @s luck_bow_puon matches 1.. run execute if score @s luck_money matches 20.. run execute at @s run playsound minecraft:block.dispenser.fail master @s
+execute as @a run execute if score @s luck_bow_puon matches 1.. run execute if score @s luck_money matches 20.. run title @s actionbar {"text":"§e§l成功购买火焰弓*1 花费30苹果"}
+execute as @a run execute if score @s luck_bow_puon matches 1.. run execute if score @s luck_money matches 20.. run give @s bow{display:{Name:"[\"§6§l力量弓\"]",Lore:["[\"§6力量 §6§lI\"]"]},HideFlags:63b,Enchantments:[{id:"minecraft:power",lvl:1s}]} 1
+execute as @a run execute if score @s luck_bow_puon matches 1.. run execute if score @s luck_money matches 20.. run clear @s bow{Tags:["luck_bow_puon"]}
+execute as @a run execute if score @s luck_bow_puon matches 1.. run execute if score @s luck_money matches 20.. run clear @s apple 20

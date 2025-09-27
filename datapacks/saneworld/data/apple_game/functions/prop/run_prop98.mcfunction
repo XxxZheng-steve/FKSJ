@@ -1,0 +1,11 @@
+#无赖战士套装
+execute as @a[team=luck_green] run title @a title [{"text":"无 赖 战 士 已 加 入 战 场","color":"green","bold":true}]
+execute as @a[team=luck_red] run title @a title [{"text":"无 赖 战 士 已 加 入 战 场","color":"red","bold":true}]
+execute at @a run playsound minecraft:entity.wither.spawn master @a
+item replace entity @s armor.head with carved_pumpkin{display:{Name:"[\"§e§l无赖头盔\"]"},Enchantments:[{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:protection",lvl:5s},{id:"minecraft:projectile_protection",lvl:5s},{id:"minecraft:blast_protection",lvl:5s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"noName",Amount:2d,Operation:0,UUID:[I;7755,9321,2334,2189],Slot:head},{AttributeName:"generic.attack_speed",Name:"noName",Amount:1d,Operation:0,UUID:[I;4863,5834,9343,8535],Slot:head}]} 1
+item replace entity @s armor.chest with leather_chestplate{display:{Name:"[\"§e§l无赖胸甲\"]"},Enchantments:[{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:protection",lvl:5s},{id:"minecraft:projectile_protection",lvl:5s},{id:"minecraft:blast_protection",lvl:5s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"noName",Amount:10d,Operation:0,UUID:[I;4863,5834,9343,8535],Slot:chest}]} 1
+item replace entity @s armor.legs with leather_leggings{display:{Name:"[\"§e§l无赖护腿\"]"},Enchantments:[{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:protection",lvl:5s},{id:"minecraft:projectile_protection",lvl:5s},{id:"minecraft:blast_protection",lvl:5s}],AttributeModifiers:[{AttributeName:"generic.knockback_resistance",Name:"noName",Amount:0.8d,Operation:0,UUID:[I;4863,5834,9343,8535],Slot:legs}]} 1
+item replace entity @s armor.feet with leather_boots{display:{Name:"[\"§e§l无赖战靴\"]"},Enchantments:[{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:protection",lvl:10s},{id:"minecraft:projectile_protection",lvl:10s},{id:"minecraft:feather_falling",lvl:10s}],AttributeModifiers:[{AttributeName:"generic.movement_speed",Name:"noName",Amount:-0.03d,Operation:0,UUID:[I;4863,5834,9343,8535],Slot:feet}]} 1
+effect give @s regeneration 10 4 true
+execute if entity @s[nbt={SelectedItem:{tag:{prop:98}}}] run item replace entity @s weapon with air
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{prop:98}}]}] run item replace entity @s weapon.offhand with air

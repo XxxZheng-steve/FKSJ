@@ -1,0 +1,1 @@
+give @p minecraft:carrot_on_a_stick{CustomModelData:12,prop:12,display:{Name:"[\"§b§l死亡之力\"]",Lore:["[\"§b对附近所有玩家6点真实伤害\"]","[\"§b对非玩家生物造成24点真实伤害\"]","[\"§b死亡是唯一的解脱\"]","[\"§a§l右键使用\"]"]},HideFlags:63b,Enchantments:[{id:"minecraft:infinity",lvl:1s}]} 1

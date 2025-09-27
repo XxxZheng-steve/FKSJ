@@ -1,0 +1,1 @@
+give @s minecraft:crossbow{display:{Name:"[{\"text\":\"§5§l速攻弩\"}]",Lore:["{\"text\":\"§5速攻 Max\"}"]},HideFlags:7,Enchantments:[{id:"minecraft:piercing",lvl:101s},{id:"minecraft:quick_charge",lvl:5s}]} 1

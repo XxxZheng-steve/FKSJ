@@ -1,0 +1,5 @@
+#购买失败铁质压力板(陷阱)
+execute as @a run execute if score @s heavy matches 1.. run execute if score @s diamond matches 0..1 run item replace entity @s enderchest.23 with minecraft:heavy_weighted_pressure_plate{display:{Name:"[\"§b§l陷阱\"]",Lore:["[\"§f售价：2钻石\"]","[\"§6可以放在\"]","[\"§6石砖/橡木原木/木板上\"]"]},Tags:["heavy"],HideFlags:63b} 1
+execute as @a run execute if score @s heavy matches 1.. run execute if score @s diamond matches 0..1 run tellraw @s [{"text":"§4§l【系统】没钱你买个der！！！"}]
+execute as @a run execute if score @s heavy matches 1.. run execute if score @s diamond matches 0..1 run execute at @s run playsound minecraft:block.note_block.didgeridoo master @s
+execute as @a run execute if score @s heavy matches 1.. run execute if score @s diamond matches 0..1 run clear @s heavy_weighted_pressure_plate{Tags:["heavy"]}

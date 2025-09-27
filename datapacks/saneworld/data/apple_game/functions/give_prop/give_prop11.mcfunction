@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick{CustomModelData:11,prop:11,display:{Name:"[\"§f木棍\"]"},HideFlags:63b} 1

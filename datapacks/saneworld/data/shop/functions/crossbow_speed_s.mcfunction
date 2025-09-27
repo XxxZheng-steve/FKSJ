@@ -1,0 +1,7 @@
+#购买成功：速攻弩
+execute as @a run execute if score @s crossbow_speed matches 1.. run execute if score @s diamond matches 2.. run item replace entity @s enderchest.11 with minecraft:crossbow{display:{Name:"[\"§b§l速攻弩\"]",Lore:["[\"§f售价：2钻石\"]","[\"§6快速装填：Max\"]","[\"§6装填时间：0秒\"]","[\"§6耐久：50\"]"]},Tags:["crossbow_speed"],HideFlags:63b} 1
+execute as @a run execute if score @s crossbow_speed matches 1.. run execute if score @s diamond matches 2.. run execute at @s run playsound minecraft:block.dispenser.fail master @s
+execute as @a run execute if score @s crossbow_speed matches 1.. run execute if score @s diamond matches 2.. run tellraw @s {"text":"§e§l成功购买速攻弩*1 花费2钻石"}
+execute as @a run execute if score @s crossbow_speed matches 1.. run execute if score @s diamond matches 2.. run give @s minecraft:crossbow{Damage:415,display:{Name:"[{\"text\":\"§5§l速攻弩\"}]",Lore:["{\"text\":\"§5快速装填 Max\"}"]},HideFlags:7,Enchantments:[{id:"minecraft:piercing",lvl:101s},{id:"minecraft:quick_charge",lvl:5s}]} 1
+execute as @a run execute if score @s crossbow_speed matches 1.. run execute if score @s diamond matches 2.. run clear @s crossbow{Tags:["crossbow_speed"]}
+execute as @a run execute if score @s crossbow_speed matches 1.. run execute if score @s diamond matches 2.. run clear @s diamond 2

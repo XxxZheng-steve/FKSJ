@@ -1,0 +1,1 @@
+give @p minecraft:carrot_on_a_stick{CustomModelData:1,prop:1,display:{Name:"[\"§b§l激素\"]",Lore:["[\"§b扣除自身生命获得:\"]","[\"§b速度III,生命恢复I,力量I效果\"]","[\"§b持续时间15秒\"]","[\"§a§l右键使用\"]"]}} 1

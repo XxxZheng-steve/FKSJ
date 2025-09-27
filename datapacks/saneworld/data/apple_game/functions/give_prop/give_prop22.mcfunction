@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick{CustomModelData:22,prop:22,display:{Name:"[\"§b§l雷公助我-真\"]",Lore:["[\"§b雷公听到你真诚的恳求\"]","[\"§b向敌方所有玩家劈下一道闪电\"]","[\"§b这个是真的\"]","[\"§a§l右键使用\"]"]}} 1

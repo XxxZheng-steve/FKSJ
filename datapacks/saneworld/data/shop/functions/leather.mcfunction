@@ -1,0 +1,6 @@
+#皮革套装：item 
+execute as @a run execute if score @s leather matches 1.. run execute if score @s money matches 1.. run give @s minecraft:leather_chestplate{Unbreakable:1b,display:{Name:"[\"§b§l皮革胸甲\"]"},HideFlags:63b,Enchantments:[{id:"minecraft:projectile_protection",lvl:2s},{id:"minecraft:protection",lvl:1s}]} 1
+execute as @a run execute if score @s leather matches 1.. run execute if score @s money matches 1.. run give @s minecraft:leather_leggings{Unbreakable:1b,display:{Name:"[\"§b§l皮革护腿\"]"},HideFlags:63b,Enchantments:[{id:"minecraft:projectile_protection",lvl:2s},{id:"minecraft:protection",lvl:1s}]} 1
+execute as @a run execute if score @s leather matches 1.. run execute if score @s money matches 1.. run give @s minecraft:leather_boots{Unbreakable:1b,display:{Name:"[\"§b§l皮革靴子\"]"},HideFlags:63b,Enchantments:[{id:"minecraft:projectile_protection",lvl:2s},{id:"minecraft:protection",lvl:1s}]} 1
+execute as @a run execute if score @s leather matches 1.. run execute if score @s money matches 1.. run clear @s leather_chestplate{Tags:["leather_chestplate"]}
+execute as @a run execute if score @s leather matches 1.. run execute if score @s money matches 1.. run clear @s iron_ingot 1

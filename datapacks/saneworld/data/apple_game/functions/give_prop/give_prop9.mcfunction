@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick{CustomModelData:9,prop:9,display:{Name:"[\"§b§l治疗羊\"]",Lore:["[\"§b召唤一只本队颜色的羊\"]","[\"§b使附近所有本队玩家缓慢恢复生命\"]","[\"§b持续时间40秒\"]","[\"§a§l右键使用\"]"]}} 1

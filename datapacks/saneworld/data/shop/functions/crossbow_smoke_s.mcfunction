@@ -1,0 +1,7 @@
+#购买成功：烟幕弩
+execute as @a run execute if score @s crossbow_smoke matches 1.. run execute if score @s diamond matches 5.. run item replace entity @s enderchest.14 with minecraft:crossbow{display:{Name:"[\"§b§l烟幕弩\"]",Lore:["[\"§f售价：5钻石\"]","[\"§6烟幕：Max\"]","[\"§6装填时间：1.25秒\"]","[\"§6耐久：1\"]"]},Tags:["crossbow_smoke"],HideFlags:63b} 1
+execute as @a run execute if score @s crossbow_smoke matches 1.. run execute if score @s diamond matches 5.. run execute at @s run playsound minecraft:block.dispenser.fail master @s
+execute as @a run execute if score @s crossbow_smoke matches 1.. run execute if score @s diamond matches 5.. run tellraw @s {"text":"§e§l成功购买烟幕弩*1 花费5钻石"}
+execute as @a run execute if score @s crossbow_smoke matches 1.. run execute if score @s diamond matches 5.. run give @s minecraft:crossbow{Damage:464,display:{Name:"[{\"text\":\"§f§l烟幕弩\"}]",Lore:["{\"text\":\"§f烟幕 Max\"}"]},HideFlags:7,Enchantments:[{id:"minecraft:piercing",lvl:107s}]} 1
+execute as @a run execute if score @s crossbow_smoke matches 1.. run execute if score @s diamond matches 5.. run clear @s crossbow{Tags:["crossbow_smoke"]}
+execute as @a run execute if score @s crossbow_smoke matches 1.. run execute if score @s diamond matches 5.. run clear @s diamond 5

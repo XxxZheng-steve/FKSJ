@@ -1,0 +1,7 @@
+#购买成功:击退棒
+execute as @a run execute if score @s luck_stick matches 1.. run execute if score @s luck_money matches 10.. run item replace entity @s enderchest.15 with minecraft:stick{display:{Name:"[\"§b§l击退棒\"]",Lore:["[\"§f售价：10苹果\"]","[\"§6锋利：III\"]","[\"§6击退：I\"]","[\"§6无法破坏\"]"]},Tags:["luck_stick"],HideFlags:63b}
+execute as @a run execute if score @s luck_stick matches 1.. run execute if score @s luck_money matches 10.. run execute at @s run playsound minecraft:block.dispenser.fail master @s
+execute as @a run execute if score @s luck_stick matches 1.. run execute if score @s luck_money matches 10.. run title @s actionbar {"text":"§e§l成功购买击退棒*1 花费10苹果"}
+execute as @a run execute if score @s luck_stick matches 1.. run execute if score @s luck_money matches 10.. run give @s minecraft:stick{Unbreakable:1b,display:{Name:"[\"§3§l击退棒\"]",Lore:["[\"§f锋利 III\"]","[\"§f击退 I\"]"]},HideFlags:63b,Enchantments:[{id:"minecraft:sharpness",lvl:3s},{id:"minecraft:knockback",lvl:1s}]} 1
+execute as @a run execute if score @s luck_stick matches 1.. run execute if score @s luck_money matches 10.. run clear @s stick{Tags:["luck_stick"]}
+execute as @a run execute if score @s luck_stick matches 1.. run execute if score @s luck_money matches 10.. run clear @s apple 10
